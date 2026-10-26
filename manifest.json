@@ -1,0 +1,23 @@
+{
+    "name": "Hack-Tools 汉化版",
+    "version": "0.5.0",
+    "description": "面向 Web 渗透测试人员的全能红队浏览器扩展（简体中文汉化版）",
+    "action": {
+        "default_title": "Hack-Tools 汉化版",
+        "default_popup": "index.html",
+        "default_icon": {
+            "16": "./src/assets/img/icons/get_started16.png",
+            "32": "./src/assets/img/icons/get_started32.png",
+            "48": "./src/assets/img/icons/get_started48.png",
+            "128": "./src/assets/img/icons/get_started128.png"
+        }
+    },
+    "icons": {
+        "16": "./src/assets/img/icons/get_started16.png",
+        "32": "./src/assets/img/icons/get_started32.png",
+        "48": "./src/assets/img/icons/get_started48.png",
+        "128": "./src/assets/img/icons/get_started128.png"
+    },
+    "manifest_version": 3,
+    "devtools_page": "src/devtools/devtools.html"
+}

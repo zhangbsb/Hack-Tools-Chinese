@@ -1,0 +1,28 @@
+Hack-Tools 汉化版（简体中文）
+================================
+
+本目录是 HackTools 0.5.0 的简体中文汉化版本，功能与原版完全一致，仅界面文字改为中文。
+
+【安装方法】
+1. 打开 Chrome 的 chrome://extensions/（Edge 为 edge://extensions/）。
+2. 打开右上角的「开发者模式」。
+3. 点击「加载已解压的扩展程序」，选择本目录（即包含 manifest.json 的这一层）。
+4. 在工具栏固定 Hack-Tools 图标即可使用；按 F12 也可在开发者工具的 HackTools 面板中使用。
+
+【汉化范围】
+- 侧边栏全部工具名称、页面标题、按钮、输入框占位符、提示消息。
+- 数据编码 / 哈希 / 文件传输 / 文件混淆 / Linux 命令 / PowerShell 命令 /
+  反弹 Shell / MSF Venom / TTY / LFI / XSS / SQL 注入 / PHP 反弹 Shell /
+  About（关于我们）/ RSS 订阅与 CVE 查询等页面的说明文字与栏目。
+- 分页、筛选菜单、空数据提示、Markdown 编辑器工具栏提示等组件内置文案。
+
+【保留英文的内容】
+- 命令、Payload、SQL 语句、路径等需要原样复制到终端执行的代码。
+- 产品名与技术术语（Payload、Shell、XSS、LFI、PowerShell、LHOST 等）。
+- RSS/CVE 页面中来自外部数据源的标题与风险等级（数据本身为英文）。
+
+【其他说明】
+- 原版 manifest 中 devtools_page 指向的路径有误（devtools.html 实际位于
+  src/devtools/ 下），汉化版已顺手修正，F12 开发者工具面板可正常显示。
+- RSS、CVE 查询页面需要联网访问第三方接口，若接口不可用会显示「获取数据失败，请联系我们。」
+- 汉化基于打包后的 app.bundle.js / 918.bundle.js 直接替换界面字符串，未改动业务逻辑。
